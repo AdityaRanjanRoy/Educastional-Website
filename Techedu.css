@@ -1,0 +1,271 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+.container{
+    width: 80%;
+    margin :auto;
+    overflow :hidden;
+}
+header{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 50px;
+    border-bottom: #e8491d 3px solid; 
+    position:fixed;
+    top : 0;
+    left: 0;
+    right: 0;
+}
+header a{
+    color: #e8491d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin: 10px;
+}
+header .heighlight{
+    color: #e8491d;
+    font-weight: bold;
+}
+header .current a{
+    color: #ffffff;
+    font-weight: bold;
+}
+header a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 500px;
+    background-image: url("https://images.shiksha.com/mediadata/images/1495698098phpSJWxfu.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin-top: 4.3%;
+    font-family: papyrus;
+    color: #17f397;
+}
+@keyframes examples{
+    0% {color: orangered;}
+    33%{color: #17f397;}
+    66%{color: yellow;}
+    100%{color:sandybrown;}
+}
+#showcase h1{
+    margin-top: 140px;
+    font-size: 600%;
+    margin-bottom:  10px;
+    animation-name: examples;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#showcase p{
+    color: #ffffff;
+    font-size: 150%;
+    margin-top: 200px;
+    font-family: cursive;
+    margin-left: 350px;
+}
+#newsletter{
+    padding: 0px;
+    color: #ffffff;
+    background-color: #1d2225;
+    text-align: center;
+}
+@keyframes examp{
+    0% {left: 200px;}
+    25% {left: 100px;}
+    50% {left: 0px;}
+    75% {left: -100px;}
+    100% {left: -200px;}
+}
+#newsletter h1{
+    color: #e8491d;
+    text-decoration: #ffffff underline;
+    position :relative;
+    animation-name: examp;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box1{
+    margin-left: 32%;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes a{
+    text-decoration: none;
+    color: teal;
+}
+#main{
+    padding:5%;
+    min-height: 100%;
+    margin-top: 4.3%;
+    background-image: url("https://cdn.dribbble.com/users/1784672/screenshots/7352719/media/c6d8f54d32ec7f768df780d7d9e1284d.png?compress=1&resize=400x300");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#main h1{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 400%;
+    mix-blend-mode: difference;
+    filter: contrast(9) grayscale(1) ;
+}
+#lead{
+    margin-left: 35%;
+}
+#main p{
+    color: #ffffff;
+    font-weight:bold;
+    font-size:150%;
+}
+aside#sidebar{
+    float: right;
+    width: 30%;
+}
+aside#sidebar1{
+    float: left;
+    width: 50%;
+}
+aside.column {
+    width: 30%;
+    padding: 0 8px;
+  }
+
+  aside#column1 {
+    float: left;
+    width:25%;
+    margin-left:20%;
+  }
+
+  aside#column2 {
+    float: right;
+    width: 25%;
+    margin-right:20%;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container1 {
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+#signup{
+    margin-top: 4.3%;
+    background-color: grey;
+}
+.form-group input {
+    font-family: 'Baloo Chettan 2', cursive;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    width: 364px;
+    margin: 13px auto;
+    border: 2px solid pink;
+    padding: 1px;
+    font-size: 25px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 23%;
+    margin: auto;
+
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: rgb(26, 107, 63);
+    padding: 4px 14px;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo Chettan 2', cursive;
+
+}
+.btn:hover {
+    background-color: rgb(75, 62, 62);
+}
+footer{
+    padding: 5px;
+    text-align:center;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+}
